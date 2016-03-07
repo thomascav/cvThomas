@@ -220,9 +220,13 @@ navbar
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
-.ids {
+#popover {
     margin-left: 50px;
     margin-bottom: 20px;
+    color: black;
+}
+.popover-title {
+    color: black;
 }
 /*==================================================
 /navbar
@@ -258,3 +262,11 @@ hr {
 footer {
     background-color: black;
 }
+/*.fa {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 5px solid white;
+    border-radius: 30px;
+    text-align: center;
+}*/
