@@ -24,7 +24,7 @@ navbar
   left: 0;
   width: 100px;
   border-right: 4px solid #D50000;
-  /*z-index: 1000;*/
+  z-index: 1000;
   font-family: Comfortaa;
   clear: right;
 }
@@ -220,6 +220,10 @@ navbar
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
+.ids {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
 /*==================================================
 /navbar
 ==================================================*/
@@ -227,8 +231,6 @@ h1 {
     text-align: center;
     background-color: #2E2B26;
     color: white;
-    margin-top: 0;
-    padding: 50px;
     width: 100%;
     margin-left: 5%;
     font-family: 'Pacifico', cursive;
@@ -236,9 +238,20 @@ h1 {
     border-bottom: 4px solid #D50000;
 }
 .corpus {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     /*margin-left: 50px;*/
+}
+#strings {
+    min-width: 1250px;
+    min-height: 200px;
+    float: left;
+    margin-bottom: 50px;
+
 }
 h3 {
     color: white;
+    margin-top: 50px;
+}
+hr {
+    margin: 20px;
 }
