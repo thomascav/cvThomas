@@ -31,6 +31,10 @@ navbar
 #cssvmenu #portrait {
     border-radius: 100px;
     border: 5px solid white;
+    height: 170px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 #cssvmenu ul,
 #cssvmenu ul li,
@@ -241,16 +245,12 @@ h1 {
     font-size: 5em;
     border-bottom: 4px solid #D50000;
 }
-.corpus {
-    /*margin-top: 100px;*/
-    /*margin-left: 50px;*/
-}
 #strings {
     min-width: 1250px;
     min-height: 200px;
-    float: left;
     margin-bottom: 50px;
-
+    width: 100%;
+    margin-left: -30px;
 }
 h3 {
     color: white;
@@ -270,3 +270,24 @@ footer {
     border-radius: 30px;
     text-align: center;
 }*/
+/*==================================================
+/corps
+==================================================*/
+.toggableTab {
+    border:2px solid #EBDBC2;
+    border-radius: 20px;
+    background-color: #2E2B26;
+    font-size: 1.6em;
+    padding: 20px;
+}
+.toggableTab h3 {
+    color: black;
+}
+.tab-pane {
+    background-color: #9C9181;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.tab-content .active {
+    background-color: #9C9181;
+}
