@@ -36,6 +36,14 @@ navbar
     margin-bottom: 20px;
     margin-top: 20px;
 }
+#popover {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+.popover-title {
+    color: black;
+}
 #cssvmenu ul,
 #cssvmenu ul li,
 #cssvmenu ul ul {
@@ -125,6 +133,7 @@ navbar
 #cssvmenu > ul > li > a {
   border-right: 4px solid #D50000;
   color: #ffffff;
+  margin-left: 20px;
 }
 #cssvmenu > ul > li > a:hover {
   color: #ffffff;
@@ -140,13 +149,6 @@ navbar
 }
 #cssvmenu li {
   position: relative;
-}
-#cssvmenu ul li.has-sub > a:after {
-  content: "+";
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  margin-top: -6px;
 }
 #cssvmenu ul ul li.first {
   -webkit-border-radius: 0 3px 0 0;
@@ -191,16 +193,6 @@ navbar
 #cssvmenu.align-right li {
   text-align: right;
 }
-#cssvmenu.align-right ul li.has-sub > a:before {
-  content: "+";
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  margin-top: -6px;
-}
-#cssvmenu.align-right ul li.has-sub > a:after {
-  content: none;
-}
 #cssvmenu.align-right ul ul {
   visibility: hidden;
   position: absolute;
@@ -224,14 +216,6 @@ navbar
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
-#popover {
-    margin-left: 50px;
-    margin-bottom: 20px;
-    color: black;
-}
-.popover-title {
-    color: black;
-}
 /*==================================================
 /navbar
 ==================================================*/
@@ -239,37 +223,42 @@ h1 {
     text-align: center;
     background-color: #2E2B26;
     color: white;
-    width: 100%;
     margin-left: 5%;
     font-family: 'Pacifico', cursive;
-    font-size: 5em;
+    font-size: 8em;
     border-bottom: 4px solid #D50000;
 }
 #strings {
-    min-width: 1250px;
+    max-width: 100%;
     min-height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     width: 100%;
     margin-left: -30px;
+}
+.corpus section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.corpus hr {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#travaux p {
+    font-size: 1.6em;
+    color: white;
 }
 h3 {
     color: white;
     margin-top: 50px;
 }
 hr {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 footer {
     background-color: black;
 }
-/*.fa {
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border: 5px solid white;
-    border-radius: 30px;
-    text-align: center;
-}*/
+
 /*==================================================
 /corps
 ==================================================*/
@@ -280,13 +269,18 @@ footer {
     font-size: 1.6em;
     padding: 20px;
 }
-.toggableTab h3 {
+.toggableTab h4 {
     color: black;
+    padding-bottom: 50px;
+    text-align: center;
 }
 .tab-pane {
     background-color: #9C9181;
-    padding: 20px;
+    padding: 50px;
     border-radius: 0 0 10px 10px;
+}
+.tab-pane ul li {
+    padding-bottom: 10px;
 }
 .tab-content .active {
     background-color: #9C9181;
