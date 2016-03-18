@@ -285,3 +285,13 @@ footer {
 .tab-content .active {
     background-color: #9C9181;
 }
+#mail {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.presentationtravaux ul li {
+    color: white;
+    font-size: 1.2em;
+    list-style: none;
+}
